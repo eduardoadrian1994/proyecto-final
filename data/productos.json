@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Whisky 12 años",
+    "price": 45.99,
+    "description": "Un clásico con notas ahumadas y frutales.",
+    "image": "img/descarga.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Whisky 18 años",
+    "price": 75.50,
+    "description": "Maduración prolongada para paladares exigentes.",
+    "image": "img/descarga.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Edición Especial",
+    "price": 120.00,
+    "description": "Selección limitada de barricas únicas.",
+    "image": "img/descarga.jpg"
+  }
+]

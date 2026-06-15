@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Carrito de compras - Whisky Premium. Revisa y edita tus productos seleccionados.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito | Whisky Premium</title>
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Saltar al contenido</a>
+    <header>
+        <a href="index.html"><img src="img/logo.png" alt="Logo Whisky" class="logo"></a>
+        <nav aria-label="Menú principal">
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="resenas.html">Reseñas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="carrito.html" class="cart-link">🛒 Carrito <span id="cart-count" style="display: none;"></span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main" role="main">
+        <section class="carrito">
+            <h2 style="color: #e0c68b;">Tu Carrito de Compras</h2>
+            <div id="cart-items" class="cart-container"></div>
+
+            <div class="cart-summary" style="margin-top: 2rem; padding: 2rem; background: #fff8e1; border-radius: 10px;">
+                <h3 style="color: #3e2723;">Resumen de Compra</h3>
+                <p><strong>Total:</strong> $<span id="cart-total">0.00</span></p>
+                <a href="contacto.html" class="btn-checkout">Proceder al Checkout</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Whisky Premium. Todos los derechos reservados a nombre de Eduardo Adrian Lopez.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/storage.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
