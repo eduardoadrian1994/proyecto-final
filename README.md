@@ -119,3 +119,4 @@ Este proyecto cumple con los requisitos de la **Clase 15** del curso Frontend JS
 ---
 
 **Desarrollado con 💜 para el curso de Talento Tech - Frontend JavaScript**
+**Autor: Eduardo Adrian Lopez Fecha: 15 junio 2026**
