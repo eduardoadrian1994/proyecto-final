@@ -72,6 +72,7 @@ proyecto-final/
 ├── contacto.html           # Formulario de contacto
 ├── gracias.html            # Página de confirmación
 ├── css/
+│   ├── styles-responsive.css # Responsive - para que se vea bien todos los dispositivos.
 │   └── styles.css          # Estilos principales
 ├── js/
 │   ├── main.js             # Script principal
